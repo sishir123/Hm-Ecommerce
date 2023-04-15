@@ -67,56 +67,11 @@
             </label>
         </nav>
 
-        <!-- Wishlist Box -->
-
-        <div class="header-text">
-            <h1 class="wishlist-text">My Wishlist</h1>
-        </div>
+       
 
 
-        <div class="wishlist-container">
-           
-                <img src="images/fish.jpg" alt="product-img" class="wishlist-img">
+       
 
-                <div class="wishlist-item-name">
-                    <h3 class="wishlist-item-text">1Kg Fresh Fish</h3>
-                </div>
-
-                <div class="wishlist-description">
-                    <h3 class="wishlist-desc-text">
-                        Fresh and best quality fish in the town
-                    </h3>
-                </div>
-                <div class="wishlist-instock">
-                    <h3 class="wishlist-instock-text">
-                        In stock
-                    </h3>
-                </div>
-                <div class="wrapper">
-                    <span class="minus">-</span>
-                    <span class="num">01</span>
-                    <span class="plus">+</span>
-                  </div>
-                  <script>
-                   const plus = document.querySelector(".plus"),
-                    minus = document.querySelector(".minus"),
-                    num = document.querySelector(".num");
-                    let a = 1;
-                    plus.addEventListener("click", ()=>{
-                      a++;
-                      a = (a < 10) ? "0" + a : a;
-                      num.innerText = a;
-                    });
-                
-                    minus.addEventListener("click", ()=>{
-                      if(a > 1){
-                        a--;
-                        a = (a < 10) ? "0" + a : a;
-                        num.innerText = a;
-                      }
-                    });
-                
-                  </script>
         </div>
 
          <!-- Subscribe Handlebar -->
